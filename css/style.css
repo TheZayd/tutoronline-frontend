@@ -3,22 +3,12 @@
 	height: 50px;
 }
 
-.title {
-	/*background-color: mediumaquamarine;*/
-	/*height: 200px;*/
 
-	text-align: center;
-}
-.title > h1 {
-	/*margin-top: 0px;*/
-}
-
-.footer {
+.reviews-footer {
 	height: 50px;
-	
 	text-align: center;
 }
-.footer > p {
+.reviews-footer > p {
 	margin-top: 0px;
 }
 
@@ -84,4 +74,42 @@
 
 .to-review-container {
 	padding: 0
+}
+
+.footer {
+    background-color: chocolate
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+    background: rgba(230, 11, 44, 1);
+    color: white;
 }
