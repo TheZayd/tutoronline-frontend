@@ -1,0 +1,87 @@
+.nav_bar {
+	background-color: beige;
+	height: 50px;
+}
+
+.title {
+	/*background-color: mediumaquamarine;*/
+	/*height: 200px;*/
+
+	text-align: center;
+}
+.title > h1 {
+	/*margin-top: 0px;*/
+}
+
+.footer {
+	height: 50px;
+	
+	text-align: center;
+}
+.footer > p {
+	margin-top: 0px;
+}
+
+.reviews {
+	position: relative;
+}
+
+.bg-image {
+	background: url("../assets/library.jpg") no-repeat;
+	height: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px);
+}
+
+.bg-text {
+  /*background-color: rgb(0,0,0); */
+  /*background-color: rgba(0,0,0, 0.4); */
+  color: white;
+  font-weight: bold;
+  /*border: 3px solid #f1f1f1;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.to-card {
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.4);
+	border: 3px solid #f1f1f1;
+	padding: 2em
+}
+
+.user-image > img {
+	border-radius: 50%;
+	height: 4em;
+}
+
+.to-container {
+	/*display: flex;*/
+	/*justify-content: space-between;*/
+}
+
+.stars-rating > img {
+	height: 1.5em
+}
+
+.review-highlights {
+	text-align: start
+}
+
+.complete-review {
+	margin-top: 2em;
+}
+
+.to-review-container {
+	padding: 0
+}
