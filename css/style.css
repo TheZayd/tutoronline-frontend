@@ -18,13 +18,13 @@
 
 .bg-image {
 	background: url("../assets/library.jpg") no-repeat;
-	height: 30em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    background-position: center;
-    filter: blur(3px);
+	/*height: 30em;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  /*filter: blur(3px);*/
 }
 
 .bg-text {
@@ -36,7 +36,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -100%);
   z-index: 2;
   width: 80%;
   padding: 20px;
@@ -61,7 +61,7 @@
 }
 
 .stars-rating > img {
-	height: 1.5em
+	height: 1em
 }
 
 .review-highlights {
@@ -74,6 +74,11 @@
 
 .to-review-container {
 	padding: 0
+}
+
+.to-review-container > img {
+  width: 100%;
+  opacity: 0%;
 }
 
 .footer {
