@@ -65,7 +65,7 @@
 }
 
 .review-highlights {
-	text-align: start
+	text-align: start;
 }
 
 .complete-review {
@@ -73,7 +73,7 @@
 }
 
 .to-review-container {
-	padding: 0
+	padding: 0;
 }
 
 .to-review-container > img {
@@ -82,7 +82,8 @@
 }
 
 .footer {
-    background-color: chocolate
+    background-color: chocolate;
+    color: white;
 }
 
 /* Style all font awesome icons */
